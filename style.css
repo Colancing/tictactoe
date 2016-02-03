@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    width:100%;
+}
+h1{
+    text-transform: uppercase;
+    color: greenyellow;
+    margin: 20px;
+}
+#left{
+text-align:center;}
+#text{
+    margin: 0 auto;
+    color:white;
+    /*border: solid 2px white;*/
+    width:90%;
+    height:20px;
+    padding:25px;
+    margin: 20px auto;
+}
+#jeu, #left{
+    display: inline-block;
+    margin: 100px 0;
+    width:30%;
+    text-align: center;
+}
+.line{
+    text-align: center;
+}
+.case {
+    display: inline-block;
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    background-color: white ;
+    border-bottom:5px black solid;
+    border-right:2px black solid;
+    vertical-align: top;
+}
+.case.player1{
+    background-color:green;
+}
+.case.player2{
+    background-color:red;
+}
+
+#redo{
+    width:150px;
+    padding:25px;
+    margin: 0 auto;
+}
